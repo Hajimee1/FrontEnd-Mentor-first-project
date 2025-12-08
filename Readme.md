@@ -57,6 +57,7 @@ Below are the visual previews of the project on two different screen sizes:
 <p align-item="center">
   <img src="./img/mobile-design.jpg" width="200" alt="Mobile Preview">
 </p>
+
 ---
 
 ## 🔗 Live Demo
