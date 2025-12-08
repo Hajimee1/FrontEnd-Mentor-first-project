@@ -37,6 +37,8 @@ body {
   line-height: 140%;
   letter-spacing: 0.2px;
   color: #68778d;
+  padding: 0 1rem;
+  margin-block-start: 1.5rem;
 }
 
 /* --- KART --- */
@@ -81,11 +83,6 @@ body {
   width: 100%; /* no overflow */
   max-width: 320px;
   padding: 1rem 1rem 2.5rem 1rem;
-}
-
-.card-text {
-  padding: 0 1rem;
-  margin-block-start: 1.5rem;
 }
 
 /* --- Stripes --- */
