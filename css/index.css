@@ -18,22 +18,22 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh; /* height → min-height yapıldı */
-  background: #d5e1ef;
+  background-color: #d5e1ef;
 }
 
 .card-title {
   font-family: "Outfit", sans-serif;
-  font-size: 22px;
+  font-size: 1.375em; /* 22px */
   font-weight: bold;
   line-height: 120%;
   letter-spacing: 0;
   color: #1f314f;
-  margin-bottom: 16px;
+  margin-block-end: 1rem;
 }
 
 .card-text {
   font-family: "Outfit", sans-serif;
-  font-size: 15px;
+  font-size: 0.9375em; /* 15px */
   line-height: 140%;
   letter-spacing: 0.2px;
   color: #68778d;
@@ -46,13 +46,12 @@ body {
   overflow: hidden;
 
   width: 100%;
-  max-width: 100%; /* taşmayı bitirir */
-  padding: 64px;
+  max-width: 100%; /* no owerflow */
+  padding: 4rem;
   border-radius: 10px;
 }
 
-/* --- BULANIK DAİRELER --- */
-/* boyutu büyüttüğü için yatay kaydırma oluşturuyordu */
+/* --- Circles --- */
 .card::before,
 .card::after {
   content: "";
@@ -65,31 +64,31 @@ body {
   pointer-events: none;
 }
 
-/* Üstteki */
+/* up there */
 .card::before {
   top: -120px;
   left: -85px;
 }
 
-/* Alttaki */
+/* down there */
 .card::after {
   bottom: -180px;
   right: -130px;
 }
 
-/* İç sarma alanı */
-#f-wrap {
-  width: 100%; /* ekledim → taşmayı keser */
+/* inside wrapper */
+.f-wrap {
+  width: 100%; /* no overflow */
   max-width: 320px;
-  padding: 16px 16px 40px 16px;
+  padding: 1rem 1rem 2.5rem 1rem;
 }
 
-#card-text {
-  padding: 0px 16px;
-  margin-top: 24px;
+.card-text {
+  padding: 0 1rem;
+  margin-block-start: 1.5rem;
 }
 
-/* --- ŞERİTLER --- */
+/* --- Stripes --- */
 .card .stripes {
   position: absolute;
   inset: 0;
