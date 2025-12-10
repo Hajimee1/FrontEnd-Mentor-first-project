@@ -8,13 +8,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; 
+  min-height: 100vh;
   background-color: #d5e1ef;
   font-family: "Outfit", sans-serif;
 }
 
 .card-title {
- 
   font-size: 22px; /* 22px */
   font-weight: bold;
   line-height: 120%;
@@ -22,14 +21,15 @@ body {
   color: #1f314f;
   margin-block-end: 1rem;
 }
-
+.card-text-area {
+  margin-block-start: 1.5rem;
+  padding: 0 16px;
+}
 .card-text {
   font-size: 15px; /* 15px */
   line-height: 140%;
   letter-spacing: 0.2px;
   color: #68778d;
-  padding: 0 1rem;
-  margin-block-start: 1.5rem;
 }
 
 .card {
