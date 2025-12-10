@@ -15,7 +15,7 @@ body {
 
 .card-title {
  
-  font-size: 1.375em; /* 22px */
+  font-size: 22px; /* 22px */
   font-weight: bold;
   line-height: 120%;
   letter-spacing: 0;
@@ -24,7 +24,7 @@ body {
 }
 
 .card-text {
-  font-size: 0.9375em; /* 15px */
+  font-size: 15px; /* 15px */
   line-height: 140%;
   letter-spacing: 0.2px;
   color: #68778d;
